@@ -1,15 +1,12 @@
 <template>
-    <div>
-        <Navbar />
-        <div class="flex w-full">
-            <Sidebar />
-            <div >
+    <div> 
+        <div class="w-full">
+            <div>
                 <div class="flex gap-3 overflow-x-clip">
                     <div v-for="(label, index) in tags" :key="index" class="flex ">
-                    <Chiptag :label="label" class=""/>
+                        <Chiptag :label="label" class="" />
+                    </div>
                 </div>
-                </div>
-                
                 <div class="flex gap-4 flex-wrap w-full h-[90vh] overflow-y-scroll rounded-md p-6">
                     <VideoCard />
                     <VideoCard />
@@ -24,7 +21,6 @@
                     <VideoCard />
                     <VideoCard />
                 </div>
-
             </div>
         </div>
 
@@ -43,7 +39,7 @@ const tags = ref([
     "Diamond",
     "Microsoft",
     "Interviews",
-    
+
 ])
 
 

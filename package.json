@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "lucide": "^0.367.0",
     "nuxt": "^3.11.1",
     "primeicons": "^6.0.1",
     "primevue": "^3.50.0",
@@ -18,6 +19,7 @@
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.11.4",
+    "nuxt-lucide-icons": "^1.0.4",
     "nuxt-primevue": "^0.3.1"
   }
 }
